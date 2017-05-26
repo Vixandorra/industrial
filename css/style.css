@@ -1,0 +1,235 @@
+html, body {
+    font: normal 100%  "HKGrotesk-Light", "Font-awesome", "League Spartan regular", "League Spartan italic", Calibri, Candara, sans-serif;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    background-color: #272f45;
+}
+
+
+#page {
+    width: 100%;
+    height: auto;
+}
+
+
+.lg-grid {
+    display: flex;
+    width: 97.60416666666667%;
+    margin: 0 auto;
+}
+
+.md-grid {
+    display: flex;
+    width: 59.48452508004269%;
+    margin: 0 auto;
+}
+
+.col-lg-3, .col-lg-5, .col-lg-7, .col-lg-12 {
+    padding: 0;
+}
+
+.red_color {
+    color: #f10e34;
+}
+
+.green {
+    color: #fcff19;
+}
+
+.grey_btn {
+    background: grey;
+    color: white;
+}
+
+@font-face {
+    font-family: "League Spartan";
+    src: url("../static/font/LeagueSpartan-Bold.otf");
+}
+
+@font-face {
+    font-family: "HKGrotesk-Light";
+    src: url("../static/font/HKGrotesk-Light.otf");
+}
+
+@font-face {
+    font-family: "League Spartan bold";
+}
+
+@font-face {
+    font-family: 'League Spartan Bold';
+}
+
+@font-face {
+    font-family: "League Spartan italic";
+}
+
+
+@font-face {
+    font-family: "Font-awesome";
+    src: url("../static/font/font awesome/font_awesome/fontawesome-webfont.ttf");
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: inherit;
+}
+
+
+a:hover {
+    cursor: hand;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.bold {
+    font-family: "League Spartan";
+    font-weight: bold;
+}
+
+.regular {
+    font-family: "League Spartan regular" ;
+    font-weight: lighter;
+}
+
+.white {
+    color: white;
+}
+
+.orange_text {
+    color: #dd4b2b;
+}
+
+
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 85.29411764705882%;
+    background: transparent;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.container_80 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container_80 {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+.container_75 {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.container_70 {
+    width: 70%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .container_70 {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+.container_60 {
+     width: 67%;
+    margin: 0 auto;
+ }
+
+.container_50 {
+    width: 46.5%;
+}
+
+@media screen and (max-width: 768px) {
+    .container_50 {
+        width: 65%;
+        margin: 0 auto;
+    }
+}
+
+.container_50_const {
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .container_50_const {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+
+.button {
+
+    height: 40px;
+    margin: 0 auto;
+}
+
+.btn-default {
+    margin: 0 auto;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+.center-block {
+    float: none;
+    display: block;
+}
+
+@media screen and (min-width: 2200px) {
+    .col-lg-8, .col-lg-9 {
+        width: 50%;
+    }
+}
+
+
+@media screen and (min-width: 2600px) {
+    .col-lg-8, .col-lg-9 {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 3100px) {
+    .col-lg-8, .col-lg-9 {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    header .button .btn-default {
+        width: 17%;
+    }
+}
+
+
+@media screen and (min-width: 2600px) {
+    header .button .btn-default {
+        width: 15%;
+    }
+}
+
+@media screen and (min-width: 3100px) {
+    header .button .btn-default {
+        width: 12%;
+    }
+}

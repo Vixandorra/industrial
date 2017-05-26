@@ -1,0 +1,257 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*background: #f3f3f3;*/
+    width: auto;
+    /* min-height: 2050px; */
+    color: white;
+}
+
+
+main .gina {
+    height: 690px;
+    background: url("../static/pic/kickstarter-badge.png") 96.5% 6.5% no-repeat, url("../static/pic/Gina-product.png") no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+main .gina,
+main .three_el,
+main .two_el {
+    margin-bottom: 40px;
+}
+
+main .gina .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 485px;
+    padding: 0 5%;
+    margin-top: 95px;
+}
+
+main .gina .left h1 {
+    font-size: 5em;
+}
+
+main .gina .left p {
+    height: 273px;
+    font-size: 1.95em;
+    letter-spacing: 1px;
+    line-height: 1.25em;
+}
+
+main .gina .btn-default {
+    width: 44%;
+}
+
+main .btn,
+main .form-control {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    float: left;
+    text-align: center;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+main .btn-default,
+main .form-control {
+   background: transparent;
+    border: 3px solid #eec9a2;
+    border-radius: 0px !important;
+    color: white;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    padding: 11px 8%;
+}
+
+main .three_el,
+main .two_el {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main .two_el .beoplay,
+main .two_el .leica {
+    height: 520px;
+}
+
+main .two_el .beoplay {
+    background: #6068a3 url("../static/pic/Beoplay-A1-product.png") 97.5% 29% no-repeat;
+    margin-right: 1.7%;
+}
+
+main .two_el .leica {
+    background: #7778c6 url("../static/pic/Leica-MP-product.png") -920% 125% no-repeat;
+    margin-left: 1.7%;
+}
+
+main .two_el .right,
+main .two_el .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    height: 234px;
+    margin-top: 61px;
+    font-size: 1.2em;
+}
+
+main .two_el .right .col-lg-4,
+main .two_el .left .col-lg-4 {
+    width: 26.5%;
+}
+
+main .two_el .right {
+    text-align: right;
+    float: right;
+}
+
+main .two_el h1 {
+    font-size: 2.5em;
+}
+
+main .two_el .right .btn {
+    align-self: flex-end;
+}
+
+main .two_el .right p {
+    height: 111px;
+    font-size: 1.2em;
+    letter-spacing: 0.75px;
+    margin-left: 10px;
+}
+    
+
+main .two_el .btn, 
+main .three_el .btn {
+    font-size: 1em; 
+    padding: 10px 7.5% 5px;
+}
+
+main .two_el .left h1,
+main .two_el .left p {
+    margin-left: -4px;
+}
+
+main .two_el .left p {
+    height: 111px;
+    font-size: 1.3em;
+}
+
+main .three_el .molecule,
+main .three_el .signature,
+main .three_el .dr2 {
+    height: 440px;
+}
+
+main .three_el .molecule {
+    background: #e97864 url("../static/pic/Molekule-product.png") 50.5% -110% no-repeat;
+    margin-right: 1.7%;
+}
+
+main .three_el .signature {
+    background: #557581 url("../static/pic/P9-Signature-product.png") 79.5% 559%  no-repeat;
+    margin: 0 1.7%;
+}
+
+main .three_el .dr2 {
+    background: #82c9d8 url("../static/pic/DR-II-product.png") 50.5% 197.5% no-repeat;
+    margin-left: 1.7%;
+}
+    
+main .three_el .top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 65px;
+    text-align: center;
+    height: 146px;
+}
+
+main .three_el h1 {
+    font-size: 2.3em;
+    height: 58px;
+}
+
+main .three_el .btn {
+    padding: 15px 4.5% 4px 5%;
+    margin: 0 auto;
+    width: 36.6%;
+    line-height: 1.2em;
+    font-size: 1.2em;
+}
+
+main .three_el .signature {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 0;
+}
+
+main .three_el .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 65px;
+    text-align: center;
+    height: 146px;
+    margin-top: 0;
+    margin-bottom: 37px;
+}
+
+
+main .newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 292px;
+    margin: 0 auto;
+    margin-top: 110px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+main .newsletter h2 {
+    font-size: 2.35em;
+}
+
+main .newsletter p {
+    text-align: center;
+    font-size: 1.15em;
+    padding: 0 0.9%;
+        line-height: 1.3em;
+    height: 84px;
+}
+
+main .newsletter .form-group {
+    margin:  0 auto;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 3.6%;
+}
+
+main .newsletter .btn {
+    margin: 0 auto;
+    padding: 18px 34% 11px;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    text-align: center;
+    border-color: #82c9d8;
+}
+
+main .newsletter input {
+    padding: 27px 7%;
+    font-size: 1.45em;
+    letter-spacing: 1px;
+    text-align: center;
+    border-color: #63757e;
+    color: #63757e;
+}
